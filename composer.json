@@ -4,10 +4,15 @@
 			"comcduarte\\ActionMenu\\" : "src"
 		}
 	},
+    "extra": {
+        "laminas": {
+            "component": "comcduarte\\ActionMenu",
+            "config-provider": "comcduarte\\ActionMenu\\ConfigProvider"
+        }
+    },
 	"require" : {
 		"laminas/laminas-view" : "~2.34"
 	},
 	"name" : "comcduarte/actionmenu",
-	"homepage" : "https://github.com/comcduarte/actionmenu",
-	"support" : {}
+	"homepage" : "https://github.com/comcduarte/actionmenu"
 }
