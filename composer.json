@@ -7,5 +7,7 @@
 	"require" : {
 		"laminas/laminas-view" : "~2.34"
 	},
-	"name" : "ActionMenu"
+	"name" : "comcduarte/actionmenu",
+	"homepage" : "https://github.com/comcduarte/actionmenu",
+	"support" : {}
 }
