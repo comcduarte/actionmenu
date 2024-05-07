@@ -3,8 +3,6 @@ declare(strict_types=1);
 
 namespace comcduarte\ActionMenu;
 
-use Laminas\ServiceManager\Factory\InvokableFactory;
-
 class ConfigProvider
 {
     /**
@@ -24,10 +22,10 @@ class ConfigProvider
         return [
             'view_helpers' => [
                 'aliases' => [
-                    'actionmenu' => ActionMenu::class,
+                    'actionmenu' => View\Helper\ActionMenu::class,
                 ],
                 'factories' => [
-                    ActionMenu::class => InvokableFactory::class,
+                    View\Helper\ActionMenu::class => \Laminas\ServiceManager\Factory\InvokableFactory::class,
                 ],
             ],
         ];
