@@ -1,0 +1,10 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"comcduarte\\ActionMenu\\" : "src"
+		}
+	},
+	"require" : {
+		"laminas/laminas-view" : "~2.34"
+	}
+}
