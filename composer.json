@@ -6,5 +6,6 @@
 	},
 	"require" : {
 		"laminas/laminas-view" : "~2.34"
-	}
+	},
+	"name" : "comcduarte/actionmenu"
 }
